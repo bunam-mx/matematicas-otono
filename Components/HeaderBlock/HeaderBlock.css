@@ -1,0 +1,18 @@
+.header {
+    @apply bg-autumn_red text-gray-50 p-4;
+}
+.header__container {
+    @apply max-w-screen-2xl md:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto;
+}
+.header__container ul {
+    @apply grid sm:flex grid-cols-3 gap-4 sm:gap-0 text-center;
+}
+.header__container li {
+    @apply inline-block mx-2;
+}
+.header__container li a {
+    @apply block p-2 border border-dashed border-autumn_red;
+}
+.header__container li a:hover {
+    @apply border-white;
+}
