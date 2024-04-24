@@ -1,0 +1,6 @@
+.footer {
+    @apply bg-autumn-red mt-40;
+}
+.footer__content {
+    @apply container mx-auto p-2 text-white text-sm flex flex-col lg:flex-row;
+}
