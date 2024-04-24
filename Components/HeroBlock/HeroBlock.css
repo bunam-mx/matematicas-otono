@@ -1,0 +1,36 @@
+.hero {
+    @apply lg:grid lg:grid-cols-2 gap-4 px-4 max-w-screen-2xl md:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto min-h-lvh content-center z-10;
+}
+.hero__content {
+    @apply text-center text-gray-50 mt-20 lg:mt-6 2xl:mt-0;
+}
+.hero__content:nth-child(1) {
+    @apply bg-autumn-lightorange flex flex-col justify-center items-center rounded p-4;
+}
+.hero__content h1 {
+    @apply text-4xl sm:text-5xl lg:text-4xl xl:text-5xl uppercase drop-shadow-lg;
+}
+.hero__content h2 {
+    @apply text-2xl sm:text-3xl lg:text-2xl xl:text-3xl drop-shadow-2xl pb-4 border-b-4 border-gray-50;
+}
+.hero__content h3 {
+    @apply text-5xl mb-6 drop-shadow-2xl;
+}
+.hero__content h3 span {
+    @apply block;
+}
+.hero__content h4 {
+    @apply text-3xl drop-shadow-2xl mb-10;
+}
+.hero__content > div {
+    @apply mt-10;
+}
+.hero__content > div > p {
+    @apply text-2xl drop-shadow-2xl text-center;
+}
+.hero__content > div > p > a:hover {
+    @apply underline;
+}
+.hero__content > div > p > img {
+    @apply inline-block;
+}
