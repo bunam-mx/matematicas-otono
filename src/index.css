@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "GillSansNovaBold";
+    src: local("GillSansNovaBold"), local("GillSansNovaBold"),
+      url("public/fonts/GillSansNova-Bold.woff2") format("woff2"),
+      url("public/fonts/GillSansNova-Bold.woff") format("woff"),
+      url("public/fonts/GillSansNova-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "GillSansNovaCondensedBold";
+    src: local("Gill Sans Nova Condensed Bold"),
+      local("Gill-Sans-Nova-Condensed-Bold"),
+      url("/public/fonts/GillSansNova-CnBold.woff2") format("woff2"),
+      url("/public/fonts/GillSansNova-CnBold.woff") format("woff"),
+      url("/public/fonts/GillSansNova-CnBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "GillSansNovaCondensedBook";
+    src: local("Gill Sans Nova Condensed Book"),
+      local("Gill-Sans-Nova-Condensed-Book"),
+      url("/public/fonts/GillSansNova-CnBook.woff2") format("woff2"),
+      url("/public/fonts/GillSansNova-CnBook.woff") format("woff"),
+      url("/public/fonts/GillSansNova-CnBook.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html {
+    font-family: "GillSansNovaCondensedBook", sans-serif;
+  }
+
+  h1 {
+    font-family: "GillSansNovaBold", sans-serif;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-family: "GillSansNovaCondensedBold", sans-serif;
+  }
+
+}
+
+html {
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

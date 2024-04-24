@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "autumn_black": "#0D0D0D",
-        "autumn_red": "#F23D3D",
-        "autumn_orange": "#F25D27",
-        "autumn_lightorange": "#F28705",
-        "autumn_yellow": "#F29F05",
+        "autumn-black": "#0D0D0D",
+        "autumn-red": "#F23D3D",
+        "autumn-orange": "#F25D27",
+        "autumn-lightorange": "#F28705",
+        "autumn-yellow": "#F29F05",
       }
     },
   },
