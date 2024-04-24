@@ -1,0 +1,28 @@
+.schedule h2 {
+    @apply text-3xl bg-autumn-orange md:text-center md:rounded-e md:w-3/4 lg:w-1/2 md:inline-block text-gray-50 p-4 mt-20;
+}
+.schedule__item {
+    @apply mx-1 md:mx-auto md:w-11/12 xl:w-3/4 2xl:w-3/5 my-10 bg-autumn-yellow rounded p-2 text-lg md:text-xl xl:text-2xl text-center;
+}
+.schedule__item h3 {
+    @apply text-2xl bg-autumn-orange text-gray-50 rounded-sm p-2 mb-2;
+}
+.schedule__item table {
+    @apply w-full;
+}
+.schedule__item table tr {
+    @apply border-b border-autumn-lightorange;
+}
+.schedule__item table tr td {
+    @apply pt-1 pl-1 pr-1 pb-0;
+}
+.schedule__item table tr td:nth-child(2), .schedule__item table tr td:nth-child(3), .schedule__item table tr td:nth-child(4), .schedule__item table tr td:nth-child(5) {
+    @apply border-l border-autumn-lightorange;
+}
+.schedule__item__moderator {
+    @apply text-autumn-red;
+    text-shadow: 1px 0 3px #F28705;
+}
+.schedule__item__venue {
+    @apply bg-autumn-lightorange -mx-1 mt-2;
+}

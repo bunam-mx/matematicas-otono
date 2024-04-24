@@ -26,7 +26,7 @@ function HeroBlock() {
           <p><a href="mailto:integrandofc@ciencias.unam.mx">
             mailto:integrandofc@ciencias.unam.mx
           </a></p>
-          <p><img src="/images/integrando.png" alt="INTEGRANDO FC" width={300} /></p>
+          <p><img src="/images/integrando.png" alt="INTEGRANDO FC" width={160} /></p>
         </div>
       </article>
     </section>
