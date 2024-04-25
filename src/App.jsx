@@ -11,7 +11,7 @@ function App() {
       <HeroBlock />
       <ScheduleBlock />
       <FooterBlock />
-      <img src="/images/hoja.png" alt="Hoja otoño" width={400} className="fixed right-0 bottom-0 -z-10" />
+      <img src="images/hoja.png" alt="Hoja otoño" width={400} className="fixed right-0 bottom-0 -z-10" />
     </>
   )
 }

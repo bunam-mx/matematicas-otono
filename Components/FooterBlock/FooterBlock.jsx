@@ -13,7 +13,7 @@ function FooterBlock() {
               rel="noopener noreferrer"
             >
               <img
-                src="/images/bunam_mooc.svg"
+                src="images/bunam_mooc.svg"
                 alt="B@UNAM & MOOC"
                 width={100}
               />
