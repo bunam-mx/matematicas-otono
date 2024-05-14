@@ -15,17 +15,30 @@ function November7th() {
           <tr>
             <td>09:00 - 09:40</td>
             <td colSpan="4">
-              <h4>Inauguración</h4>
-              <p>Dr. Santiago Alberto Verjovsky Solá</p>
               <div>
-                <h5>Mesa redonda</h5>
+                <h4>Inauguración</h4>
+                <ul>
+                  <li>Dr. Víctor Manuel Velázquez Aguilar</li>
+                  <li>Dr. Manuel Jesús Falconi Magaña</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Conferencia inaugural</h4>
+                <ul>
+                  <li>Dr. Santiago Alberto Verjovsky Solá</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Mesa redonda</h4>
                 <ul>
                   <li>Dr. Víctor Manuel Velázquez Aguilar</li>
                   <li>Biol. María Dolores Valle Martínez</li>
                   <li>Dr. Benjamín Barajas Sánchez</li>
-                  <li>Dra. Rosa María Guadalupe Vadillo Bueno</li>
+                  <li>Dra. Guadalupe Vadillo</li>
                 </ul>
-                <p className="schedule__item__moderator">Modera: Dr. Manuel Jesús Falconi Magaña</p>
+                <p className="schedule__item__moderator">
+                  Modera: Dr. Manuel Jesús Falconi Magaña
+                </p>
               </div>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
@@ -33,7 +46,8 @@ function November7th() {
           <tr>
             <td>09:45 - 10:30</td>
             <td colSpan="4">
-              <h4>Conferencia magistral</h4>
+              <h4>Historia de las Matemáticas</h4>
+              <h5>Conferencia magistral</h5>
               <p>Dr. Carlos Álvarez Jiménez</p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
@@ -41,14 +55,17 @@ function November7th() {
           <tr>
             <td>10:30 - 11:30</td>
             <td colSpan="4">
-              <h4>Mesa redonda</h4>
+              <h4>Historia de las Matemáticas para la enseñanza</h4>
+              <h5>Mesa redonda</h5>
               <ul>
-                <li>Dra. Carmen Martinez Adame</li>
-                <li>M. en C. María del Socorro Rivera Casales</li>
-                <li>M. en C. Javier Martín Zariñán Sánchez</li>
                 <li>M. en C. José Rafael Martínez Enríquez</li>
-                <p className="schedule__item__moderator">Modera: Mat. Julio César Guevara Bravo</p>
+                <li>M. en C. Javier Martín Zariñán Sánchez</li>
+                <li>M. en C. María del Socorro Rivera Casales</li>
+                <li>Dra. Carmen Martinez Adame</li>
               </ul>
+              <p className="schedule__item__moderator">
+                Modera: Mat. Julio César Guevara Bravo
+              </p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
@@ -78,6 +95,7 @@ function November7th() {
                 <li>Dr. Marcos Campos Nava</li>
                 <li>Agustín Torres</li>
               </ul>
+              <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
             </td>
           </tr>
           <tr>
@@ -128,18 +146,20 @@ function November7th() {
           <tr>
             <td>14:00 - 16:00</td>
             <td colSpan="4">
-                <h4>Comida</h4>
+              <h4>Comida</h4>
             </td>
           </tr>
           <tr>
             <td>16:00 - 17:00</td>
             <td colSpan="4">
-                <h4>Conferencia Magistral</h4>
-                <p className="schedule__item__venue">Auditorio Carlos Graef</p>
+              <h4></h4>
+              <h5>Conferencia Magistral</h5>
+              <p>Dra. Nelly Rigaud Téllez</p>
+              <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
           <tr>
-          <td>17:00 - 17:30</td>
+            <td>17:00 - 17:30</td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
@@ -153,11 +173,12 @@ function November7th() {
               <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
             <td rowSpan="4">
-            <h4>Taller de Geogebra</h4>
+              <h4>Taller de Geogebra</h4>
               <ul>
                 <li>Dr. Marcos Campos Nava</li>
                 <li>Agustín Torres</li>
               </ul>
+              <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
             </td>
           </tr>
           <tr>

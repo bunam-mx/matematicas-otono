@@ -7,6 +7,12 @@
 .schedule__item h3 {
     @apply text-2xl bg-autumn-orange text-gray-50 rounded-sm p-2 mb-2;
 }
+.schedule__item h4 {
+    @apply mt-4;
+}
+.schedule__item h5 {
+    @apply text-xl text-autumn-orange;
+}
 .schedule__item table {
     @apply w-full;
 }
@@ -20,7 +26,7 @@
     @apply border-l border-autumn-lightorange;
 }
 .schedule__item__moderator {
-    @apply text-autumn-red;
+    @apply text-autumn-orange text-xl;
 }
 .schedule__item__venue {
     @apply bg-autumn-lightorange -mx-1 mt-2;
