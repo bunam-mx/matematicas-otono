@@ -1,0 +1,34 @@
+{
+  "name": "mo-api",
+  "version": "1.0.0",
+  "description": "API service for Matemáticas en Otoño event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunam-mooc/matematicas-otono.git"
+  },
+  "keywords": [
+    "matemáticas",
+    "otoño",
+    "ciencia",
+    "tecnología",
+    "enseñanza"
+  ],
+  "author": "Omar Terrazas R",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bunam-mooc/matematicas-otono/issues"
+  },
+  "homepage": "https://github.com/bunam-mooc/matematicas-otono#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "nodemailer": "^6.9.13",
+    "sequelize": "^6.37.3"
+  }
+}
