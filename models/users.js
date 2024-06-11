@@ -18,6 +18,7 @@ module.exports = (sequelize, type) => {
       defaultValue: false,
     },
     hash: type.STRING,
+    usertype: type.INTEGER,
   });
 
   Users.prototype.sendWelcomeEmail = async function () {
