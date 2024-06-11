@@ -2,21 +2,22 @@ import { useRoutes, BrowserRouter } from "react-router-dom";
 import HeaderBlock from "../../Components/HeaderBlock/HeaderBlock"
 import FooterBlock from "../../Components/FooterBlock/FooterBlock"
 import Home from "../Home/Home"
+import Register from "../Register/Register"
 
 const AppRoutes = () => {
   return useRoutes([
-    { path: "/mate-otono-2024/", element: <Home /> }
+    { path: "/", element: <Home /> },
+    { path: "/register/:usertype", element: <Register /> },
   ]);
 };
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mate-otono-2024/">
       <HeaderBlock />
       <AppRoutes />
       <FooterBlock />
-      <img src="images/hoja.png" alt="Hoja otoño" width={400} className="fixed right-0 bottom-0 -z-10" />
     </BrowserRouter>
   )
 }
