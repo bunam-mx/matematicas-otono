@@ -9,7 +9,10 @@ export default {
         "autumn-orange": "#F25D27",
         "autumn-lightorange": "#F28705",
         "autumn-yellow": "#F29F05",
-      }
+      },
+      fontFamily: {
+        gillsanscondensed: ["GillSansNovaCondensedBold", "sans-serif"],
+      },
     },
   },
   plugins: [],
