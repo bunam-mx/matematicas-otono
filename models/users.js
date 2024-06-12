@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer"),
-  urlDestiny = "https://iagenedu.unam.mx";
+  urlDestiny = process.env.URL_DESTINY;
 
 const transporter = nodemailer.createTransport({
   service: "Gmail",

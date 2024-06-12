@@ -14,7 +14,7 @@ module.exports = (app) => {
       .createHash("sha256", secret)
       .update(req.body.password)
       .digest("hex");
-    
+
     db.users
       .findAll({
         where: {
@@ -43,6 +43,7 @@ module.exports = (app) => {
                     password: password,
                     active: false,
                     hash: hash,
+                    usertype: req.body.usertype,
                   })
                   .then((user) => {
                     db.sigecos
@@ -67,6 +68,31 @@ module.exports = (app) => {
                   });
               }
             });
+        }
+      });
+  });
+
+  app.route("/users/activate/:hash").get(function (req, res) {
+    db.users
+      .findOne(
+        {
+          where: {
+            hash: req.params.hash,
+          },
+        }
+      )
+      .then((user) => {
+        console.log(user);
+        if (user) {
+          user
+            .update({
+              active: true,
+            })
+            .then(() => {
+              res.json({ active: true, usertype: user.usertype });
+            });
+        } else {
+          res.json({ active: false });
         }
       });
   });
