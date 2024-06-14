@@ -1,3 +1,9 @@
+import "./RegisterForm.css";
+
+const API_URL = import.meta.env.VITE_API_URL;
+const privacyNotice =
+  "https://lib.cuaed.unam.mx/portales/aviso-privacidad-simplificado.html";
+
 function RegisterBlock(props) {
   const displayRegisterMessage = (message) => {
     let registerMessage = document.getElementById("registerMessage");
@@ -11,6 +17,8 @@ function RegisterBlock(props) {
 
   const sendRegister = (event) => {
     event.preventDefault();
+    window.scroll(0, 0);
+
     const emailTag = document.getElementById("email");
     const confirmEmailTag = document.getElementById("confirm_email");
     const passwordTag = document.getElementById("password");
@@ -40,6 +48,7 @@ function RegisterBlock(props) {
       account: accountTag.value,
       curp: curpTag.value,
       studyLevel: studyLevelTag.value,
+      usertype: props.usertype,
     };
 
     let dataJSON = JSON.stringify(formData);
@@ -52,17 +61,15 @@ function RegisterBlock(props) {
       },
     };
 
-    fetch(`{$API_URL}/users/`, options)
+    fetch(`${API_URL}/users/`, options)
       .then((response) => response.json())
       .then((data) => {
         if (data.error) {
           displayRegisterMessage(data.error);
-          window.scroll(0, 0);
           return;
         }
         let successMessage = document.getElementById("successMessage");
         successMessage.classList.remove("hidden");
-        window.scroll(0, 0);
         setTimeout(() => {
           successMessage.classList.add("hidden");
           window.location.href = "/";
@@ -73,15 +80,14 @@ function RegisterBlock(props) {
         displayRegisterMessage(
           "Ocurrió un error inesperado. Intente más tarde."
         );
-        window.scroll(0, 0);
       });
   };
 
   return (
-    <section id="register">
-      <div id="registerMessage" className="hidden">
+    <section className="register-form">
+      <div id="registerMessage" className="register-form__message hidden">
         <div>
-          <span>X</span>
+          <span>x</span>
           <p>Message</p>
         </div>
       </div>
@@ -90,19 +96,22 @@ function RegisterBlock(props) {
           Para conocer el manejo de los datos que se solicitan en este registro
           se puede consultar el{" "}
           <a
-            href="https://lib.cuaieed.unam.mx/portales/aviso-privacidad-simplificado.html"
+            href={privacyNotice}
             target="_blank"
             className="underline"
             rel="noreferrer"
           >
             Aviso de privacidad simplificado de la Coordinación de Universidad
-            Abierta, Innovación Educativa y Educación a Distancia de la UNAM
-          </a>
-          .
+            Abierta y Educación Digital
+          </a>{" "}
+          de la UNAM.
         </p>
       </header>
       <main className="w-3/4 mx-auto bg-slate-50 rounded shadow-sm">
-        <div className="bg-green-500 text-white hidden" id="successMessage">
+        <div
+          className="register-form__success-message hidden"
+          id="successMessage"
+        >
           <p className="p-4 text-center">
             Registro exitoso. <strong>Revisa tu correo electrónico</strong> para
             activar tu cuenta.
@@ -113,10 +122,10 @@ function RegisterBlock(props) {
           method="POST"
           onSubmit={sendRegister}
           autoComplete="off"
+          className="register-form__form"
         >
-          <input type="hidden" name="usertype" value={props.usertype} />
-          <div className="flex flex-row">
-            <div className="w-1/2 p-4">
+          <div className="register-form__form--group">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Correo electrónico</label>
               <input
                 type="email"
@@ -126,7 +135,7 @@ function RegisterBlock(props) {
                 required
               />
             </div>
-            <div className="w-1/2 p-4">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Confirmar correo electrónico</label>
               <input
                 type="email"
@@ -137,8 +146,8 @@ function RegisterBlock(props) {
               />
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-1/2 p-4">
+          <div className="register-form__form--group">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Contraseña</label>
               <input
                 type="password"
@@ -148,7 +157,7 @@ function RegisterBlock(props) {
                 required
               />
             </div>
-            <div className="w-1/2 p-4">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Confirmar contraseña</label>
               <input
                 type="password"
@@ -159,8 +168,8 @@ function RegisterBlock(props) {
               />
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-1/2 p-4">
+          <div className="register-form__form--group">
+            <div className="register-form__form--group-item">
               <label htmlFor="">
                 Nombre (como desea que aparezca en su constancia)
               </label>
@@ -172,7 +181,7 @@ function RegisterBlock(props) {
                 required
               />
             </div>
-            <div className="w-1/2 p-4">
+            <div className="register-form__form--group-item">
               <label htmlFor="">
                 Apellido (como desea que aparezca en su constancia)
               </label>
@@ -185,8 +194,8 @@ function RegisterBlock(props) {
               />
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-1/2 p-4">
+          <div className="register-form__form--group">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Entidad dentro de la UNAM</label>
               <input
                 type="text"
@@ -196,7 +205,7 @@ function RegisterBlock(props) {
                 required
               />
             </div>
-            <div className="w-1/2 p-4">
+            <div className="register-form__form--group-item">
               <label htmlFor="">
                 Número de trabajador o número de cuenta UNAM
               </label>
@@ -209,8 +218,8 @@ function RegisterBlock(props) {
               />
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-1/2 p-4">
+          <div className="register-form__form--group">
+            <div className="register-form__form--group-item">
               <label htmlFor="">CURP</label>
               <input
                 type="text"
@@ -225,7 +234,7 @@ function RegisterBlock(props) {
                 Favor de verificar, si está incorrecta, no se emitirá constancia
               </p>
             </div>
-            <div className="w-1/2 p-4">
+            <div className="register-form__form--group-item">
               <label htmlFor="">Grado máximo de estudios</label>
               <select
                 name="studyLevel"
@@ -242,21 +251,21 @@ function RegisterBlock(props) {
               </select>
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-full p-4">
+          <div className="register-form__form--notice">
+            <div className="register-form__form--group-item">
               <label htmlFor="">
                 <a
-                  href="https://lib.cuaieed.unam.mx/portales/aviso-privacidad-simplificado.html"
+                  href={privacyNotice}
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-700 underline"
                 >
                   Aviso de privacidad simplificado de la Coordinación de
-                  Universidad Abierta, Innovación Educativa y Educación a
-                  Distancia de la UNAM
-                </a>
+                  Universidad Abierta y Educación Digital
+                </a>{" "}
+                de la UNAM.
               </label>
-              <label htmlFor="" className="mt-2">
+              <label htmlFor="">
                 <input
                   type="checkbox"
                   name="privacyAccept"
@@ -268,7 +277,7 @@ function RegisterBlock(props) {
               </label>
             </div>
           </div>
-          <div className="text-right">
+          <div className="register-form__form--submit">
             <input type="submit" value="completar registro" />
           </div>
         </form>
