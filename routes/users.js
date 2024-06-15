@@ -72,17 +72,49 @@ module.exports = (app) => {
       });
   });
 
+  app.route("/users/login").post(function (req, res) {
+    db.users
+      .findOne({
+        where: {
+          email: req.body.email,
+          password: crypto
+            .createHash("sha256", secret)
+            .update(req.body.password)
+            .digest("hex"),
+          active: true,
+        },
+      })
+      .then((user) => {
+        if (user) {
+          db.sigecos
+            .findOne({
+              where: {
+                userId: user.id,
+              },
+            })
+            .then((sigeco) => {
+              res.json({
+                id: user.id,
+                email: user.email,
+                name: sigeco.name,
+                lastname: sigeco.lastname,
+                usertype: user.usertype,
+              });
+            });
+        } else {
+          res.json({ error: "Usuario o contraseña incorrectos" });
+        }
+      });
+  });
+
   app.route("/users/activate/:hash").get(function (req, res) {
     db.users
-      .findOne(
-        {
-          where: {
-            hash: req.params.hash,
-          },
-        }
-      )
+      .findOne({
+        where: {
+          hash: req.params.hash,
+        },
+      })
       .then((user) => {
-        console.log(user);
         if (user) {
           user
             .update({
