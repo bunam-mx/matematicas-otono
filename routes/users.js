@@ -81,11 +81,10 @@ module.exports = (app) => {
             .createHash("sha256", secret)
             .update(req.body.password)
             .digest("hex"),
-          active: true,
         },
       })
       .then((user) => {
-        if (user) {
+        if (user && user.active === 1) {
           db.sigecos
             .findOne({
               where: {
@@ -102,7 +101,11 @@ module.exports = (app) => {
               });
             });
         } else {
-          res.json({ error: "Usuario o contraseña incorrectos" });
+          if (user && user.active === false) {
+            res.json({ error: "Usuario inactivo" });
+          } else {
+            res.json({ error: "Usuario o contraseña incorrectos" });
+          }
         }
       });
   });
