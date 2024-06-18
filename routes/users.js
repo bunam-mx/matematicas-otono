@@ -132,7 +132,7 @@ module.exports = (app) => {
         },
       })
       .then((user) => {
-        if (user && user.active === 1) {
+        if (user && user.active) {        
           db.sigecos
             .findOne({
               where: {

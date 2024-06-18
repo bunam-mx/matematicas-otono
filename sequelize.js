@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
   host: "localhost",
   dialect: "mysql",
-  timezone: "-05:00",
+  timezone: "-06:00",
   pool: {
     max: 5,
     min: 0,
@@ -22,13 +22,17 @@ db.sequelize = sequelize;
 
 db.users = require("./models/users")(sequelize, Sequelize);
 db.sigecos = require("./models/sigecos")(sequelize, Sequelize);
+db.workshops = require("./models/workshops")(sequelize, Sequelize);
 
 db.users.hasOne(db.sigecos);
 db.sigecos.belongsTo(db.users);
 
+db.users.hasOne(db.workshops);
+db.workshops.belongsTo(db.users);
+
 sequelize
   .sync({
-    force: true,
+    force: false,
   })
   .then(() => {
     console.log("Database & tables created!");
