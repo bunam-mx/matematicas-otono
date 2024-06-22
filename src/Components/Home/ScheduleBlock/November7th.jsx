@@ -29,7 +29,7 @@ function November7th() {
                 </ul>
               </div>
               <div>
-                <h4>Mesa redonda</h4>
+                <p>&nbsp;</p>
                 <ul>
                   <li>Dr. Víctor Manuel Velázquez Aguilar</li>
                   <li>Biol. María Dolores Valle Martínez</li>
@@ -55,7 +55,7 @@ function November7th() {
           <tr>
             <td>10:30 - 11:30</td>
             <td colSpan="4">
-              <h4>Historia de las Matemáticas para la enseñanza</h4>
+              <h4>La historia de las matemáticas, una pieza fundamental para su enseñanza</h4>
               <h5>Mesa redonda</h5>
               <ul>
                 <li>M. en C. José Rafael Martínez Enríquez</li>
@@ -72,7 +72,7 @@ function November7th() {
           <tr>
             <td>11:30 - 12:00</td>
             <td colSpan="4">
-              <h4>Coffe break</h4>
+              <h4>Receso</h4>
             </td>
           </tr>
           <tr>
@@ -152,7 +152,7 @@ function November7th() {
           <tr>
             <td>16:00 - 17:00</td>
             <td colSpan="4">
-              <h4></h4>
+              <h4>IA generativa para la enseñanza de las matemáticas</h4>
               <h5>Conferencia Magistral</h5>
               <p>Dra. Nelly Rigaud Téllez</p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>

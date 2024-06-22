@@ -15,7 +15,7 @@ function November8th() {
           <tr>
             <td>09:00 - 10:00</td>
             <td colSpan="4">
-              <h4></h4>
+              <h4>Nueva Escuela Mexicana ¿qué esperamos en el bachillerato?</h4>
               <h5>Conferencia magistral</h5>
               <ul>
                 <li>Dr. Alejandro Díaz Barriga</li>
@@ -41,7 +41,7 @@ function November8th() {
           <tr>
             <td>11:30 - 12:00</td>
             <td colSpan="4">
-              <h4>Coffe break</h4>
+              <h4>Receso</h4>
             </td>
           </tr>
           <tr>
