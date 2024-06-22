@@ -35,5 +35,5 @@
   @apply lg:flex lg:flex-row gap-8 lg:justify-end;
 }
 .register-form__form--submit input {
-  @apply bg-autumn-lightorange text-white p-2 rounded cursor-pointer;
+  @apply bg-autumn-lightorange text-white p-2 mt-4 rounded cursor-pointer;
 }

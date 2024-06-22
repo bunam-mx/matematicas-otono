@@ -17,8 +17,8 @@ const displayLoginMessage = (message) => {
 
 const sendLogin = (event) => {
   event.preventDefault();
-  const emailTag = document.getElementById("email");
-  const passwordTag = document.getElementById("password");
+  const emailTag = document.getElementById("email_login");
+  const passwordTag = document.getElementById("password_login");
 
   let formData = {
     email: emailTag.value,
@@ -135,11 +135,11 @@ function HeaderBlock() {
             <form onSubmit={sendLogin}>
               <input
                 type="email"
-                id="email"
+                id="email_login"
                 placeholder="Correo electrónico"
                 required
               ></input>
-              <input type="password" id="password"  placeholder="Contraseña" required></input>
+              <input type="password" id="password_login"  placeholder="Contraseña" required></input>
               <input type="submit" value="Iniciar sesión"></input>
             </form>
           </div>

@@ -26,7 +26,6 @@ function RegisterBlock(props) {
     const nameTag = document.getElementById("name");
     const lastnameTag = document.getElementById("lastname");
     const entityTag = document.getElementById("entity");
-    const accountTag = document.getElementById("account");
     const curpTag = document.getElementById("curp");
     const studyLevelTag = document.getElementById("studyLevel");
 
@@ -45,8 +44,8 @@ function RegisterBlock(props) {
       name: nameTag.value,
       lastname: lastnameTag.value,
       entity: entityTag.value,
-      account: accountTag.value,
       curp: curpTag.value,
+      account: false,
       studyLevel: studyLevelTag.value,
       usertype: props.usertype,
     };
@@ -72,7 +71,7 @@ function RegisterBlock(props) {
         successMessage.classList.remove("hidden");
         setTimeout(() => {
           successMessage.classList.add("hidden");
-          window.location.href = "/";
+          window.location.href = "/mate-otono-2024/";
         }, 5000);
       })
       .catch((error) => {
@@ -126,7 +125,7 @@ function RegisterBlock(props) {
         >
           <div className="register-form__form--group">
             <div className="register-form__form--group-item">
-              <label htmlFor="">Correo electrónico</label>
+              <label htmlFor="email">Correo electrónico *</label>
               <input
                 type="email"
                 className="w-full"
@@ -136,7 +135,7 @@ function RegisterBlock(props) {
               />
             </div>
             <div className="register-form__form--group-item">
-              <label htmlFor="">Confirmar correo electrónico</label>
+              <label htmlFor="confirm_email">Confirmar correo electrónico *</label>
               <input
                 type="email"
                 className="w-full"
@@ -148,7 +147,7 @@ function RegisterBlock(props) {
           </div>
           <div className="register-form__form--group">
             <div className="register-form__form--group-item">
-              <label htmlFor="">Contraseña</label>
+              <label htmlFor="">Contraseña *</label>
               <input
                 type="password"
                 className="w-full"
@@ -158,7 +157,7 @@ function RegisterBlock(props) {
               />
             </div>
             <div className="register-form__form--group-item">
-              <label htmlFor="">Confirmar contraseña</label>
+              <label htmlFor="">Confirmar contraseña *</label>
               <input
                 type="password"
                 className="w-full"
@@ -171,7 +170,7 @@ function RegisterBlock(props) {
           <div className="register-form__form--group">
             <div className="register-form__form--group-item">
               <label htmlFor="">
-                Nombre (como desea que aparezca en su constancia)
+                Nombre * (como desea que aparezca en su constancia)
               </label>
               <input
                 type="text"
@@ -183,7 +182,7 @@ function RegisterBlock(props) {
             </div>
             <div className="register-form__form--group-item">
               <label htmlFor="">
-                Apellido (como desea que aparezca en su constancia)
+                Apellidos * (como desea que aparezca en su constancia)
               </label>
               <input
                 type="text"
@@ -196,31 +195,18 @@ function RegisterBlock(props) {
           </div>
           <div className="register-form__form--group">
             <div className="register-form__form--group-item">
-              <label htmlFor="">Entidad dentro de la UNAM</label>
+              <label htmlFor="">Entidad educativa</label>
               <input
                 type="text"
                 className="w-full"
                 name="entity"
                 id="entity"
-                required
-              />
-            </div>
-            <div className="register-form__form--group-item">
-              <label htmlFor="">
-                Número de trabajador o número de cuenta UNAM
-              </label>
-              <input
-                type="number"
-                className="w-full"
-                name="account"
-                id="account"
-                required
               />
             </div>
           </div>
           <div className="register-form__form--group">
             <div className="register-form__form--group-item">
-              <label htmlFor="">CURP</label>
+              <label htmlFor="">CURP *</label>
               <input
                 type="text"
                 className="w-full"
@@ -240,7 +226,6 @@ function RegisterBlock(props) {
                 name="studyLevel"
                 className="w-full"
                 id="studyLevel"
-                required
               >
                 <option value="">Seleccione una opción</option>
                 <option value="Secundaria">Secundaria</option>
@@ -263,7 +248,7 @@ function RegisterBlock(props) {
                   Aviso de privacidad simplificado de la Coordinación de
                   Universidad Abierta y Educación Digital
                 </a>{" "}
-                de la UNAM.
+                de la UNAM. *
               </label>
               <label htmlFor="">
                 <input
@@ -278,6 +263,7 @@ function RegisterBlock(props) {
             </div>
           </div>
           <div className="register-form__form--submit">
+            <p>* Campos obligatorios</p>
             <input type="submit" value="completar registro" />
           </div>
         </form>
