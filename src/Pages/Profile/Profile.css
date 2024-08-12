@@ -1,0 +1,41 @@
+.profile-container {
+  @apply container mx-auto bg-gray-50 min-h-40 pb-20 rounded-b;
+}
+.profile-container__header {
+  @apply text-right p-4 text-xl bg-autumn-yellow;
+}
+.profile-container__header a {
+  @apply hover:underline cursor-pointer;
+}
+.profile-container article {
+  @apply p-4 text-2xl;
+}
+.speaker-data--item input {
+  @apply inline-block border border-gray-400 rounded p-2 mt-1 mb-4;
+}
+.speaker-data--item input[type="text"], .speaker-data--item input[type="file"] {
+  @apply w-full;
+}
+.speaker-data--item input[type="file"] {
+  @apply text-sm;
+}
+.speaker-data--item-submit {
+  @apply text-right;
+}
+.speaker-data--item-submit input {
+  @apply bg-autumn-yellow text-white p-2 rounded cursor-pointer px-6;
+}
+.profile-container__content-assistant {
+  max-width: 800px;
+  @apply m-auto bg-autumn-orange p-4 my-40 text-white text-center rounded-sm;
+}
+.profile-container__guidelines {
+  @apply bg-autumn-lightorange p-2 mt-2 text-white inline-block hover:underline text-base rounded-sm;
+}
+.profile-container__error-message {
+  @apply bg-red-600 text-white p-2 rounded-sm my-2;
+
+}
+.profile-container__success-message {
+  @apply bg-green-600 text-white p-2 rounded-sm my-2;
+}	

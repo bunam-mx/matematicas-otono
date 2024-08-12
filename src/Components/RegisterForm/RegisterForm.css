@@ -1,0 +1,39 @@
+.register-form header {
+  @apply text-xl bg-autumn-lightorange p-2 my-4 rounded;
+}
+.register-form header a, .register-form__form--group-item a {
+  @apply underline;
+}
+.register-form__message {
+  @apply bg-red-200 text-red-800 p-2 relative border border-red-800 rounded my-4;
+}
+.register-form__message span {
+  @apply absolute top-0 right-0 p-2 cursor-pointer inline-block bg-red-800 text-white px-4;
+}
+.hidden {
+  display: none;
+}
+.register-form__success-message {
+  @apply bg-green-500 text-white p-2 my-4 rounded;
+}
+.register-form__form--group {
+  @apply lg:flex lg:flex-row gap-8;
+}
+.register-form__form--group-item {
+  @apply lg:w-1/2 p-2 mb-2;
+}
+.register-form__form--group-item label, .register-form__form--group-item input, .register-form__form--group-item select {
+  @apply block w-full px-2 py-1 rounded;
+}
+.register-form__form--group-item input[type="checkbox"] {
+  @apply inline-block w-auto p-10;
+}
+.register-form__form--submit {
+  @apply text-right;
+}
+.register-form__form--notice {
+  @apply lg:flex lg:flex-row gap-8 lg:justify-end;
+}
+.register-form__form--submit input {
+  @apply bg-autumn-lightorange text-white p-2 mt-4 rounded cursor-pointer;
+}

@@ -4,7 +4,7 @@ function FooterBlock() {
   return (
     <footer className="footer">
       <div className="footer__content">
-        <div className="lg:w-1/6 mb-6">
+        <div className="lg:w-1/3 mb-6">
           <p className="mt-7 mb-4">Desarrollado por:</p>
           <p>
             <a
@@ -13,9 +13,9 @@ function FooterBlock() {
               rel="noopener noreferrer"
             >
               <img
-                src="images/bunam_mooc.svg"
-                alt="B@UNAM & MOOC"
-                width={100}
+                src={`${import.meta.env.BASE_URL}images/bunam.png`}
+                alt="B@UNAM"
+                width={80}
               />
             </a>
           </p>

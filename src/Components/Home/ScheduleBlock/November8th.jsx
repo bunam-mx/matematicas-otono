@@ -1,8 +1,8 @@
-function November7th() {
+function November8th() {
   return (
     <article className="schedule__item">
       <header>
-        <h3>7 de noviembre 2024</h3>
+        <h3>8 de noviembre 2024</h3>
       </header>
       <table>
         <tbody>
@@ -13,66 +13,35 @@ function November7th() {
             </td>
           </tr>
           <tr>
-            <td>09:00 - 09:40</td>
+            <td>09:00 - 10:00</td>
             <td colSpan="4">
-              <div>
-                <h4>Inauguración</h4>
-                <ul>
-                  <li>Dr. Víctor Manuel Velázquez Aguilar</li>
-                  <li>Dr. Manuel Jesús Falconi Magaña</li>
-                </ul>
-              </div>
-              <div>
-                <h4>Conferencia inaugural</h4>
-                <ul>
-                  <li>Dr. Santiago Alberto Verjovsky Solá</li>
-                </ul>
-              </div>
-              <div>
-                <h4>Mesa redonda</h4>
-                <ul>
-                  <li>Dr. Víctor Manuel Velázquez Aguilar</li>
-                  <li>Biol. María Dolores Valle Martínez</li>
-                  <li>Dr. Benjamín Barajas Sánchez</li>
-                  <li>Dra. Guadalupe Vadillo</li>
-                </ul>
-                <p className="schedule__item__moderator">
-                  Modera: Dr. Manuel Jesús Falconi Magaña
-                </p>
-              </div>
-              <p className="schedule__item__venue">Auditorio Carlos Graef</p>
-            </td>
-          </tr>
-          <tr>
-            <td>09:45 - 10:30</td>
-            <td colSpan="4">
-              <h4>Historia de las Matemáticas</h4>
+              <h4>Nueva Escuela Mexicana ¿qué esperamos en el bachillerato?</h4>
               <h5>Conferencia magistral</h5>
-              <p>Dr. Carlos Álvarez Jiménez</p>
+              <ul>
+                <li>Dr. Alejandro Díaz Barriga</li>
+                <li>Mat. Andrés Flores Marín</li>
+              </ul>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
           <tr>
-            <td>10:30 - 11:30</td>
+            <td>10:00 - 11:30</td>
             <td colSpan="4">
-              <h4>Historia de las Matemáticas para la enseñanza</h4>
+              <h4>IA generativa en la  enseñanza y aprendizaje de las matemáticas</h4>
               <h5>Mesa redonda</h5>
               <ul>
-                <li>M. en C. José Rafael Martínez Enríquez</li>
-                <li>M. en C. Javier Martín Zariñán Sánchez</li>
-                <li>M. en C. María del Socorro Rivera Casales</li>
-                <li>Dra. Carmen Martinez Adame</li>
+                <li>Dr. Alfonso Ochoa Hofmann</li>
+                <li>Dr. Ismael Everardo Bárcenas  Patiño</li>
+                <li>Dra. Verónica Esther Arriola Ríos</li>
               </ul>
-              <p className="schedule__item__moderator">
-                Modera: Mat. Julio César Guevara Bravo
-              </p>
+              <p className="schedule__item__moderator">Modera: Dra. Guadalupe Vadillo</p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
           <tr>
             <td>11:30 - 12:00</td>
             <td colSpan="4">
-              <h4>Coffe break</h4>
+              <h4>Receso</h4>
             </td>
           </tr>
           <tr>
@@ -90,10 +59,9 @@ function November7th() {
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td rowSpan="4">
-              <h4>Taller de Geogebra</h4>
+              <h4>IA Generativa<br/>para el desarrollo<br/>de recursos<br/>educativos</h4>
               <ul>
-                <li>Dr. Marcos Campos Nava</li>
-                <li>Agustín Torres</li>
+                <li>Mtro. Omar Terrazas Razo</li>
               </ul>
               <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
             </td>
@@ -152,9 +120,15 @@ function November7th() {
           <tr>
             <td>16:00 - 17:00</td>
             <td colSpan="4">
-              <h4>IA generativa para la enseñanza de las matemáticas</h4>
-              <h5>Conferencia Magistral</h5>
-              <p>Dra. Nelly Rigaud Téllez</p>
+              <h4>Principios de la Nueva Escuela Mexicana en la EMS</h4>
+              <h5>Mesa redonda</h5>
+              <ul>
+                <li>Dr. Javier Lezama Andalón</li>
+                <li>Dra. Augus Edóc Zaira Molina Xerónimo</li>
+                <li></li>
+                <li>Dra.Nadia Gil Ruiz</li>
+              </ul>
+              <p className="schedule__item__moderator">Modera: Dra. Adriana Gomez Reyes y Dra. Leticia Sánchez López</p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
@@ -173,12 +147,8 @@ function November7th() {
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td rowSpan="4">
-              <h4>Taller de Geogebra</h4>
-              <ul>
-                <li>Dr. Marcos Campos Nava</li>
-                <li>Agustín Torres</li>
-              </ul>
-              <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
+              <h4>Taller IA Generativa</h4>
+              <p>&nbsp;</p>
             </td>
           </tr>
           <tr>
@@ -226,10 +196,20 @@ function November7th() {
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
           </tr>
+          <tr>
+            <td>19:00 - 19:30</td>
+            <td colSpan="4">
+              <h4>Clausura</h4>
+              <ul>
+                <li>Dr. Manuel Jesús Falconi Magaña</li>
+              </ul>
+              <p className="schedule__item__venue">Auditorio Carlos Graef</p>
+            </td>
+          </tr>
         </tbody>
       </table>
     </article>
   );
 }
 
-export default November7th;
+export default November8th;

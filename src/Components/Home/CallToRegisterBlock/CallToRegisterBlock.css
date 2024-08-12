@@ -1,0 +1,19 @@
+.calltoregister-block {
+  max-width: 800px;
+  @apply mx-auto mb-40 p-6 bg-autumn-orange text-white rounded-sm;
+}
+.calltoregister-block h2 {
+  @apply text-3xl font-gillsanscondensed uppercase text-center;
+}
+.calltoregister-block__register {
+  @apply text-center my-8;
+}
+.calltoregister-block__register a {
+  @apply inline-block text-2xl px-4 py-2 mx-2 bg-autumn-yellow text-white hover:text-autumn-black rounded-sm;
+}
+.calltoregister-block__guidelines {
+  @apply text-center my-8;
+}
+.calltoregister-block__guidelines a {
+  @apply underline text-2xl text-white hover:text-autumn-yellow;
+}
