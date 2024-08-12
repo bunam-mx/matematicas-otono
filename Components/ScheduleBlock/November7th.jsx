@@ -79,15 +79,15 @@ function November7th() {
             <td>12:00 - 12:30</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
             <td rowSpan="4">
               <h4>Taller de Geogebra</h4>
@@ -102,45 +102,45 @@ function November7th() {
             <td>12:30 - 13:00</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
             <td>13:00 - 13:30</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
             <td>13:30 - 14:00</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
@@ -152,7 +152,7 @@ function November7th() {
           <tr>
             <td>16:00 - 17:00</td>
             <td colSpan="4">
-              <h4></h4>
+              <h4>IA generativa para la enseñanza de las matemáticas</h4>
               <h5>Conferencia Magistral</h5>
               <p>Dra. Nelly Rigaud Téllez</p>
               <p className="schedule__item__venue">Auditorio Carlos Graef</p>
@@ -162,15 +162,15 @@ function November7th() {
             <td>17:00 - 17:30</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
             <td rowSpan="4">
               <h4>Taller de Geogebra</h4>
@@ -185,45 +185,45 @@ function November7th() {
             <td>17:30 - 18:00</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
             <td>18:00 - 18:30</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
             <td>18:30 - 19:00</td>
             <td>
               <h4>Ponencia</h4>
+              <p className="schedule__item__venue">Sotero Prieto 1</p>
+            </td>
+            <td>
+              <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 2</p>
             </td>
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
-            </td>
-            <td>
-              <h4>Ponencia</h4>
-              <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
         </tbody>
