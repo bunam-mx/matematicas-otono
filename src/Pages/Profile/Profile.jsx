@@ -54,7 +54,7 @@ function Profile() {
     return (
       <article className="profile-container__content-speaker">
         <h3>Registra tu ponencia</h3>
-        <p className="profile-container__guidelines"><a href={`${import.meta.env.BASE_URL}docs/lineamientos.pdf`} download="lineamientos.pdf">Lineamientos para la elaboración de ponencias</a></p>
+        <p className="profile-container__guidelines"><a href={`${import.meta.env.BASE_URL}docs/lineamientos-14082024.pdf`} download="lineamientos-14082024.pdf">Lineamientos para la elaboración de ponencias</a></p>
         <div className="profile-container__success-message hidden" id="success-message">
           <p></p>
         </div>

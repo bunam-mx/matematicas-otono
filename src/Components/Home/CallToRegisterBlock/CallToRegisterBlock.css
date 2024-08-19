@@ -17,3 +17,9 @@
 .calltoregister-block__guidelines a {
   @apply underline text-2xl text-white hover:text-autumn-yellow;
 }
+.calltoregister-block__problems {
+  @apply text-xl;
+}
+.calltoregister-block__problems a {
+  @apply underline;
+}
