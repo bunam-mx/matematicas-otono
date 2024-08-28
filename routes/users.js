@@ -202,7 +202,6 @@ module.exports = (app) => {
       .createHash("sha256", secret)
       .update(req.body.password)
       .digest("hex");
-
     db.users
       .update(
         {
@@ -211,8 +210,7 @@ module.exports = (app) => {
         },
         {
           where: {
-            hash: req.body.hash,
-            updatedAt: req.body.updatedAt,
+            hash: req.body.userhash
           },
         }
       )
