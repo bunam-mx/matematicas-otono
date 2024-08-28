@@ -1,15 +1,17 @@
 import Cookies from "universal-cookie";
 import "./Profile.css";
+import { NavLink } from "react-router-dom";
 
 const API_URL = import.meta.env.VITE_API_URL;
 const cookies = new Cookies();
 
 
 
-const assistantContent = () => {
+const noContent = () => {
   return (
     <article className="profile-container__content-assistant">
-      <p>Una vez que se encuentre el programa completo aquí podrás registrar tu asistencia.</p>
+      <p>Para registrar tu ponencia necesitas iniciar sesión.</p>
+      <p><NavLink to="/">ir al inicio</NavLink></p>
     </article>
   );
 };
@@ -18,8 +20,6 @@ function Profile() {
   const submitWorkshop = (e) => {
     e.preventDefault();
     
-    let messageElement = document.getElementById("speaker-message");
-
     let formElement = document.getElementById("speaker-data");
     let formData = new FormData(formElement);
 
@@ -52,9 +52,10 @@ function Profile() {
 
   const speakerContent = () => {
     return (
+      <>
       <article className="profile-container__content-speaker">
         <h3>Registra tu ponencia</h3>
-        <p className="profile-container__guidelines"><a href={`${import.meta.env.BASE_URL}docs/lineamientos-14082024.pdf`} download="lineamientos-14082024.pdf">Lineamientos para la elaboración de ponencias</a></p>
+        <p className="profile-container__guidelines"><a href={`${import.meta.env.BASE_URL}docs/lineamientos-27082024.pdf`} download="lineamientos-27082024.pdf">Lineamientos para la elaboración de ponencias</a></p>
         <div className="profile-container__success-message hidden" id="success-message">
           <p></p>
         </div>
@@ -80,16 +81,21 @@ function Profile() {
           </div>
         </form>
       </article>
+      <article className="profile-container__content-assistant">
+      <p>Una vez que se encuentre el programa completo aquí podrás registrar tu asistencia.</p>
+    </article>
+      </>
     );
   };
 
   return (
     <section className="profile-container">
       <header className="profile-container__header">
-        <p><a>Cerrar sesión</a></p>
+      {(cookies.get("id") !== undefined) ? (<p><NavLink to="/logout/">Cerrar sesión</NavLink></p>) : null}
       </header>
-      {cookies.get("usertype") == 2 ? speakerContent() : ""}
-      {assistantContent()}
+      {cookies.get("id") !== undefined ? (
+        speakerContent()
+      ): (noContent())}
     </section>
   );
 }

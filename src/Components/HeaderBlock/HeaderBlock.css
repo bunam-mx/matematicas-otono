@@ -17,9 +17,9 @@
     @apply border-white;
 }
 .start-session {
-    @apply bg-autumn-orange
+    @apply bg-autumn-orange;
 }
-.start-session div {
+.start-session .start-session__userdata {
     @apply container mx-auto flex flex-row justify-end;
 }
 .start-session form input {
@@ -31,8 +31,17 @@
 .start-session form input[type="submit"] {
     @apply bg-autumn-black hover:bg-autumn-yellow text-gray-50 hover:text-autumn-black py-1 px-2 rounded-md inline-block m-2;
 }
+#login-form, #recovery-form {
+    @apply relative z-10 py-3;
+}
+.login-form__password-recovery {
+    @apply underline hover:text-gray-50;
+}
 #loginform-message {
     @apply bg-red-700 text-gray-50 p-2 text-right;
+}
+#loginform-success {
+    @apply bg-green-700 text-gray-50 p-2 text-right;
 }
 #loginform-message p {
     @apply container mx-auto text-right text-xl;
@@ -42,4 +51,22 @@
 }
 .start-session__userdata a {
     @apply mx-2 hover:underline;
+}
+.display-login {
+    @apply w-10/12 mx-auto text-right;
+}
+.register-assistants {
+    @apply p-4;
+}
+.register-assistants a {
+    @apply inline-block p-2 rounded-md mx-2;
+}
+.register-assistants__register {
+    @apply bg-autumn-black hover:bg-autumn-yellow text-autumn-yellow hover:text-gray-50;
+}
+.register-assistants__login {
+    @apply bg-autumn-yellow hover:bg-autumn-black text-autumn-black hover:text-gray-50
+}
+.display-login .abort {
+    @apply absolute -top-1 inline-block py-2 px-4 rounded-full mx-2 bg-red-900 hover:bg-red-500 text-gray-50 align-middle -mt-2;
 }

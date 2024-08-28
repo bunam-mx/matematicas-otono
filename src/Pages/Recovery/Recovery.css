@@ -1,0 +1,21 @@
+.recovery-block {
+  @apply bg-gray-50 min-h-60 py-20 my-40;
+}
+.recovery-block__container {
+  @apply w-6/12 mx-auto;
+}
+.recovery-block__container h2 {
+  @apply text-3xl text-center my-10;
+}
+.recovery-block__container input {
+  @apply block p-2 border border-autumn-black rounded-md w-full my-2;
+}
+.recovery-block__container input[type="submit"] {
+  @apply bg-autumn-black hover:bg-autumn-yellow text-gray-50 hover:text-autumn-black py-1 px-2 rounded-md inline-block my-4;
+}
+.recovery-error {
+  @apply bg-red-700 text-gray-50 p-2 text-center;
+}
+.recovery-success {
+  @apply bg-green-700 text-gray-50 p-2 text-center;
+}
