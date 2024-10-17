@@ -47,11 +47,13 @@ function November8th() {
           <tr>
             <td>12:00 - 12:30</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>Historia de la ciencia y la tecnología en la enseñanza de las matemáticas</h4>
+              <p>María Guadalupe Venteño Jaramillo</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>El aprendizaje de la ecuación cuadrática a través de un problema contextualizado con el uso de la inteligencia artificial generativa</h4>
+              <p>Giselle Ochoa Hofmann</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td rowSpan="4">
@@ -65,29 +67,36 @@ function November8th() {
           <tr>
             <td>12:30 - 13:00</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>La matemática en sociedades antiguas: el caso del trinomio cuadrado perfecto y ángulo de inclinación</h4>
+              <p>Leticia Aguilar Pascual</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td colSpan="2" rowSpan="2">
-              <h4>Silvia Aguilar Martínez<br />NEM</h4>
+              <h4>La nueva escuela mexicana en el bachillerato</h4>
+              <p>Silvia Aguilar Martínez</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
           </tr>
           <tr>
             <td>13:00 - 13:30</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>Implementación de la tecnología para el aprendizaje de las funciones trigonométricas en el contexto de la NEM a nivel bachillerato</h4>
+              <p>Juan Adolfo Álvarez Martínez</p>
+              <p>Lorena Mendoza Guzmán</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
           </tr>
           <tr>
             <td>13:30 - 14:00</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>Dos maneras de obtener el hipervolumen de una bola euclidiana de dimensión n</h4>
+              <p>Gabriel Gutiérrez García</p>
+              <p>Antonio Gutiérrez Santillán</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>Pensamiento Matemático 1, experiencias en la aplicación</h4>
+              <p>Elson Sánchez Pastenes</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
           </tr>
@@ -115,41 +124,51 @@ function November8th() {
           <tr>
             <td>17:30 - 18:00</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>¿Y qué hay de las grandes sumas y el proceso de inducción?</h4>
+              <p>Claudia Mercedes Rodríguez Osorio</p>
+              <p>Salvador Espinosa Cruz</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Enfoque semiótico en la enseñanza-aprendizaje de las matemáticas apoyado con tecnologías</h4>
+              <p>Antonio García Flores</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Incorporación de herramientas digitales e inteligencia artificial en la práctica docente como innovación educativa</h4>
+              <p>Claudia Rodríguez Correa</p>
+              <p>José Luis Calderón Durán</p>
               <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
             <td colSpan="2" rowSpan="4">
-              <h4>Taller IA Generativa</h4>
+              <h4>Siguiendo los pasos del prodigio matemático Srinivasa Ramanujan (1887-1920)</h4>
+              <p>Wenceslao Santiago Germán</p>
               <p>Dr. Leonardo Martínez Sandoval</p>
             </td>
           </tr>
           <tr>
             <td>18:00 - 18:30</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Uso de la tecnología en la enseñanza de las matemáticas en el bachillerato</h4>
+              <p>Blanca Cecilia Cruz Salcedo</p>
+              <p>Sandra Diego Ortiz</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Mejoras en la enseñanza de las tres leyes de Newton en el nuevo Bachillerato a Distancia</h4>
+              <p>Carlos Adrián Sarmiento Gutiérrez</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              
               <p className="schedule__item__venue">Leonila Vázquez</p>
             </td>
           </tr>
           <tr>
             <td>18:30 - 19:00</td>
             <td>
-              <h4>Taller<br />Qué es Integrando</h4>
+              <h4>Estrategias didácticas basadas en la ciencia cognitiva para la enseñanza de las matemáticas</h4>
+              <p>María Guadalupe Venteño Jaramillo</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
@@ -159,16 +178,6 @@ function November8th() {
             <td>
               <h4>Ponencia</h4>
               <p className="schedule__item__venue">Leonila Vázquez</p>
-            </td>
-          </tr>
-          <tr>
-            <td>19:00 - 19:30</td>
-            <td colSpan="5">
-              <h4>Clausura</h4>
-              <ul>
-                <li>Dr. Manuel Jesús Falconi Magaña</li>
-              </ul>
-              <p className="schedule__item__venue">Auditorio Carlos Graef</p>
             </td>
           </tr>
         </tbody>

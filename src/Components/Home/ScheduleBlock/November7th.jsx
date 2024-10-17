@@ -74,13 +74,17 @@ function November7th() {
             </td>
           </tr>
           <tr>
-            <td>13:00 - 13:30</td>
+          <td>13:30 - 14:00</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>La modelización en el estudio de la razón de cambio promedio e instantáneo</h4>
+              <p>Fátima Sandra Rubiales Sánchez </p>
+              <p>Carlos Oropeza Legorreta</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
-            <td colSpan="2">
-              <h4>Ponencia</h4>
+            <td colSpan="2"> 
+              <h4>Diplomado de didáctica de matemáticas en el bachillerato</h4>
+              <p>Salvador Moreno Guzmán</p>
+              <p>Ramón Rodríguez Jiménez</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td rowSpan="2">
@@ -95,11 +99,13 @@ function November7th() {
           <tr>
             <td>13:30 - 14:00</td>
             <td colSpan="2">
-              <h4>Ponencia</h4>
+              <h4>Diseño de estrategias matemáticas con la biología y el arte a partir de herramientas IAG</h4>
+              <p>Osmán Villanueva García</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td colSpan="2"> 
-              <h4>Ponencia</h4>
+              <h4>¿Cuántas distintas maneras de definir y construir las cónicas existen?</h4>
+              <p>Jorge Alonso Santos Mellado</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
           </tr>
@@ -121,15 +127,21 @@ function November7th() {
           <tr>
             <td>17:00 - 17:30</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Funciones exponenciales</h4>
+              <p>Rosa Nayeli López Pacheco</p>
+              <p> Loreto Cruz Hernández</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Análisis de algunos parámetros y características de las cónicas haciendo uso del software libre GeoGebra</h4>
+              <p>Luis Miguel Torres Sánchez</p>
+              <p>Carlos Oropeza Ugalde</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>La razón áurea aplicada al dibujo y su contenido matemático: teoría y práctica</h4>
+              <p>Claudia Mercedes Rodríguez</p>
+              <p>Osorio Salvador Espinosa Cruz</p>
               <p className="schedule__item__venue">Leonila Vazquez</p>
             </td>
             <td rowSpan="4">
@@ -143,7 +155,7 @@ function November7th() {
             <td rowSpan="4">
               <h4>Taller de Podcast</h4>
               <ul>
-                <li>&nbsp;</li>
+                <li>M en C Teresa Manuel Hernández</li>
                 <li>&nbsp;</li>
               </ul>
               <p className="schedule__item__venue">Aula 6 Amoxcalli</p>
@@ -152,45 +164,57 @@ function November7th() {
           <tr>
             <td>17:30 - 18:00</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>NEPOHUALTZINTZIN: Historia de la matemática mexicana</h4>
+              <p>Carlos Carrillo Suárez</p>
+              <p>Sara Rocío Ruiz Galicia</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Videos matemáticos de alta calidad: La recta y sus propiedades</h4>
+              <p>Mari Carmen González-Videgaray</p>
+              <p>Rubén Romero-Ruiz</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Uso del conocimiento geométrico en el contexto de la mecánica vectorial</h4>
+              <p>Esther Sarai García González</p>
               <p className="schedule__item__venue">Leonila Vazquez</p>
             </td>
           </tr>
           <tr>
             <td>18:00 - 18:30</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>La Torre Reforma</h4>
+              <p>Alejandro Carlos Portales Rioseco</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>El Pensamiento Matemático como recurso sociocognitivo en la Nueva Escuela Mexicana: Una experiencia docente con las progresiones</h4>
+              <p>José Manuel Coronel Cuevas</p>
+              <p>Eva Damián Ayala</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>El uso de Kahoot y Genially como herramientas para enseñar Matemáticas III en el CCH</h4>
+              <p>Yenisel Reyes Tenorio</p>
               <p className="schedule__item__venue">Leonila Vazquez</p>
             </td>
           </tr>
           <tr>
             <td>18:30 - 19:00</td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Propuesta de secuencias didácticas utilizando aula invertida, para la asignatura matemáticas IV, de la Escuela Nacional Preparatoria</h4>
+              <p>Patricia Ortega Espinosa</p>
               <p className="schedule__item__venue">Sotero Prieto 1</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>La Nueva Escuela Mexicana. ¿Qué tan nueva es?</h4>
+              <p>Mario Delgadillo Torres</p>
               <p className="schedule__item__venue">Sotero Prieto 3</p>
             </td>
             <td>
-              <h4>Ponencia</h4>
+              <h4>Un viaje al paraíso de Herón de Alejandría</h4>
+              <p>Aarón Aparicio Hernández</p>
               <p className="schedule__item__venue">Leonila Vazquez</p>
             </td>
           </tr>

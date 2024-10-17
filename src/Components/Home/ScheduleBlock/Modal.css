@@ -1,0 +1,11 @@
+.overlay {
+    @apply fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center;
+}
+
+.overlay .contenedorModal {
+    @apply bg-white p-5 rounded flex flex-col justify-center items-center gap-5;
+}
+
+.overlay .contenedorModal .closeModal{
+    @apply bg-autumn-orange md:text-center rounded text-gray-50 p-4 mt-3;
+}
