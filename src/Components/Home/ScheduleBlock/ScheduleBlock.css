@@ -20,7 +20,7 @@
     @apply border-b border-autumn-lightorange;
 }
 .schedule__item table tr td {
-    @apply pt-1 pl-1 pr-1 pb-0;
+    @apply pt-1 pl-1 pr-1 pb-0 align-bottom;
 }
 .schedule__item table tr td:nth-child(2), .schedule__item table tr td:nth-child(3), .schedule__item table tr td:nth-child(4), .schedule__item table tr td:nth-child(5) {
     @apply border-l border-autumn-lightorange;
