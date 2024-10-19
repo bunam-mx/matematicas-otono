@@ -1,0 +1,16 @@
+.committee {
+    @apply bg-autumn-orange text-gray-50 p-4 mt-20 text-center align-top content-start;
+}
+.committee h2 {
+    @apply text-3xl;
+}
+.committee dl {
+    @apply inline-block mx-12;
+}
+.committee dt {
+    @apply mt-6 text-2xl mb-2;
+}
+
+.committee dd {
+    @apply text-xl text-gray-200;
+}
