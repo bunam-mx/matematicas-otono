@@ -1,19 +1,15 @@
 import HeroBlock from "../../Components/Home/HeroBlock/HeroBlock";
 import ScheduleBlock from "../../Components/Home/ScheduleBlock/ScheduleBlock";
-import Modal from "../../Components/Home/ScheduleBlock/Modal";
 import "./Home.css";
-import { useState } from "react";
+import { SemblanzaProvider } from "../../Context";
 
 function Home() {
-  const [estadoModal, cambiarEstadoModal] = useState(false);
   return (
     <div className="home-container">
       <HeroBlock />
-      <ScheduleBlock />
-      <Modal estado={estadoModal} cambiarEstado={cambiarEstadoModal}>
-        <p>Contenido del modal</p>
-        <p>ponente</p>
-      </Modal>
+      <SemblanzaProvider>
+        <ScheduleBlock />
+      </SemblanzaProvider>
       <article className="committee">
         <h2>Comité organizador</h2>
         <dl>

@@ -28,6 +28,10 @@
 .schedule__item__moderator {
     @apply text-autumn-orange text-xl;
 }
+.schedule__item table tr td .text-modal:hover{
+    @apply text-autumn-orange;
+    text-decoration: underline
+}
 .schedule__item__venue {
     @apply bg-autumn-lightorange -mx-1 mt-2;
 }

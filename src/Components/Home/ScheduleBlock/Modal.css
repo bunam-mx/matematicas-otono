@@ -4,8 +4,31 @@
 
 .overlay .contenedorModal {
     @apply bg-white p-5 rounded flex flex-col justify-center items-center gap-5;
+    max-width: 80vw
 }
 
-.overlay .contenedorModal .closeModal{
-    @apply bg-autumn-orange md:text-center rounded text-gray-50 p-4 mt-3;
+.overlay .contenedorModal .fotoSemblanza{
+    @apply flex justify-center mb-5;
+}
+.overlay .contenedorModal .fotoSemblanza img{
+    @apply rounded;
+    width: 170px;
+}
+.overlay .contenedorModal .textSemblanza{
+    @apply text-xl mb-5;
+}
+
+.overlay .contenedorModal .closeSemblanza{
+    @apply flex justify-center;
+}
+
+.overlay .contenedorModal .closeSemblanza .closeModal{
+    @apply bg-autumn-orange text-center rounded text-gray-50 p-3 mt-3;
+    width: 80px;
+}
+@media (width <= 640px ){
+    .overlay .contenedorModal{
+        position: absolute;
+        top: calc(25%);
+    }
 }
