@@ -25,6 +25,13 @@
 .schedule__item table tr td:nth-child(2), .schedule__item table tr td:nth-child(3), .schedule__item table tr td:nth-child(4), .schedule__item table tr td:nth-child(5) {
     @apply border-l border-autumn-lightorange;
 }
+.schedule__item table .sn-border-b{
+    border-bottom: 0
+}
+
+.schedule__item table .w-border-t{
+    @apply border-t border-autumn-lightorange;
+}
 .schedule__item__moderator {
     @apply text-autumn-orange text-xl;
 }

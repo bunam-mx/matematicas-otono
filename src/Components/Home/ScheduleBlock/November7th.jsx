@@ -64,9 +64,9 @@ function November7th() {
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
               </td>
             </tr>
-            <tr>
-              <td>11:00 - 12:30</td>
-              <td colSpan="5">
+            <tr className="sn-border-b">
+              <td>11:00 - 12:00</td>
+              <td colSpan="4">
                 <h4>La historia de las matemáticas, una pieza fundamental para su enseñanza</h4>
                 <h5>Mesa redonda</h5>
                 <ul>
@@ -78,6 +78,13 @@ function November7th() {
                     context.setSemblanza({ foto: 'javier.jpg', semblanza: "<h5>M. en C. Javier Martín Zariñán Sánchez</h5><p>Estudió física y matemáticas en la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional. Maestría en Ingeniería de Software en el Departamento de Ingeniería Eléctrica y en Ciencias en Investigación Educativa por el  CINVETSAV.  Es  Docente en  la academia de matemáticas en el Instituto de Educación Media Superior (IEMS).</p>" });
                     cambiarEstadoModal(!estadoModal);
                   }}>M. en C. Javier Martín Zariñán Sánchez</li>
+                  </ul>
+              </td>
+            </tr>
+            <tr>
+              <td className="w-border-t">12:00 - 12:30</td>
+              <td colSpan="4">
+                <ul>
                   <li className="text-modal" onClick={() => {
                     context.setSemblanza({ foto: 'socorro_rivera.jpg', semblanza: "<h5>Dra. María del Socorro Rivera Casales</h5><p>Está trabajando la creación de la metodología Schamac@h que recupera la numeración maya y la adapta al sistema decimal.</p>" });
                     cambiarEstadoModal(!estadoModal);
@@ -92,10 +99,25 @@ function November7th() {
                 </p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
               </td>
+              <td className="w-border-t" rowSpan="4">
+                <h4>Taller de Geogebra</h4>
+                <ul>
+                  <li></li>
+                  <li className="text-modal" onClick={() => {
+                    context.setSemblanza({ foto: 'campos_nava.jpg', semblanza: '<h5>Dr. Marcos Campos Nava</h5><p>Ingeniero Mecánico por el Instituto Tecnológico de Pachuca, Maestro en Ciencias en Matemáticas y su Didáctica por la Universidad Autónoma del Estado de Hidalgo y Doctor en Ciencias en Física Educativa por el Instituto Politécnico Nacional, México. Actualmente es miembro del Sistema Nacional de Investigadores (SNI) nivel I y es profesor con perfil deseable del Programa para el Desarrollo Profesional Docente (PRODEP) otorgado por la Secretaría de Educación Pública. Desde 2011 a la fecha está adscrito al Área Académica de Matemáticas y Física de la Universidad Autónoma del Estado de Hidalgo (UAEH), impartiendo clases en la Licenciatura en Física y Tecnología Avanzada y en la Maestría en Ciencias en Matemáticas y su Didáctica.</p>' });
+                    cambiarEstadoModal(!estadoModal);
+                  }}>Dr. Marcos Campos Nava</li>
+                  <li className="text-modal" onClick={() => {
+                    context.setSemblanza({ foto: 'Agustin-Torres-Rodriguez.png', semblanza: '<h5>Dr. Agustín Torres Rodríguez</h5><p>Estudió el doctorado en Ciencias de la Educación en la Universidad Autónoma del estado de Hidalgo.</p><p>Ha dado diversos cursos sobre la didáctica de las matemáticas a nivel licenciatura y posgrado.</p><p>Ha participado y liderado diversos proyectos de investigación sobre la enseñanza y el aprendizaje de las matemáticas.</p>' });
+                    cambiarEstadoModal(!estadoModal);
+                  }}>Dr. Agustín Torres</li>
+                </ul>
+                <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
+              </td>
             </tr>
             <tr>
               <td>12:30 - 13:00</td>
-              <td colSpan="5">
+              <td colSpan="4">
                 <h4>Receso</h4>
               </td>
             </tr>
@@ -112,21 +134,6 @@ function November7th() {
                 <p>Salvador Moreno Guzmán</p>
                 <p>Ramón Rodríguez Jiménez</p>
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
-              </td>
-              <td rowSpan="2">
-                <h4>Taller de Geogebra</h4>
-                <ul>
-                  <li></li>
-                  <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'campos_nava.jpg', semblanza: '<h5>Dr. Marcos Campos Nava</h5><p>Ingeniero Mecánico por el Instituto Tecnológico de Pachuca, Maestro en Ciencias en Matemáticas y su Didáctica por la Universidad Autónoma del Estado de Hidalgo y Doctor en Ciencias en Física Educativa por el Instituto Politécnico Nacional, México. Actualmente es miembro del Sistema Nacional de Investigadores (SNI) nivel I y es profesor con perfil deseable del Programa para el Desarrollo Profesional Docente (PRODEP) otorgado por la Secretaría de Educación Pública. Desde 2011 a la fecha está adscrito al Área Académica de Matemáticas y Física de la Universidad Autónoma del Estado de Hidalgo (UAEH), impartiendo clases en la Licenciatura en Física y Tecnología Avanzada y en la Maestría en Ciencias en Matemáticas y su Didáctica.</p>' });
-                    cambiarEstadoModal(!estadoModal);
-                  }}>Dr. Marcos Campos Nava</li>
-                  <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'Agustin-Torres-Rodriguez.png', semblanza: '<h5>Dr. Agustín Torres Rodríguez</h5><p>Estudió el doctorado en Ciencias de la Educación en la Universidad Autónoma del estado de Hidalgo.</p><p>Ha dado diversos cursos sobre la didáctica de las matemáticas a nivel licenciatura y posgrado.</p><p>Ha participado y liderado diversos proyectos de investigación sobre la enseñanza y el aprendizaje de las matemáticas.</p>' });
-                    cambiarEstadoModal(!estadoModal);
-                  }}>Dr. Agustín Torres</li>
-                </ul>
-                <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
               </td>
             </tr>
             <tr>

@@ -23,16 +23,20 @@ function Home() {
           <dd>Facultad de Ciencias</dd>
           <dt>Dra. Giselle Ochoa Hofmann</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
-        </dl>
-        <dl>
           <dt>Mtra. Rosario Santillán</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
+        </dl>
+        <dl>
           <dt>Mtro. Gabriel Gutiérrez</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
           <dt>Mtra. Adriana Gómez Reyes</dt>
           <dd>Colegio de Ciencias y Humanidades CCH</dd>
           <dt>Mtra. Clara Elena Vidrio Amor</dt>
           <dd>Facultad de Ciencias</dd>
+          <dt>Mtra. Clara Elena Vidrio Amor</dt>
+          <dd>Facultad de Ciencias</dd>
+          <dt>M en C Carmen Rocío Vite González</dt>
+          <dd>Escuela Nacional Preparatoria</dd>
         </dl>
       </article>
     </div>

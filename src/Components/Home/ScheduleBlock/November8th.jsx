@@ -80,7 +80,7 @@ function November8th() {
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
               </td>
               <td rowSpan="4">
-                <h4>IA Generativa<br />para el desarrollo<br />de recursos<br />educativos</h4>
+                <h4>Taller de diseño de materiales educativos con IA</h4>
                 <ul>
                   <li>Mtro. Omar Terrazas Razo</li>
                 </ul>
@@ -95,7 +95,7 @@ function November8th() {
                 <p className="schedule__item__venue">Sotero Prieto 1</p>
               </td>
               <td colSpan="2" rowSpan="2">
-                <h4>La nueva escuela mexicana en el bachillerato</h4>
+                <h4>El enfoque de la Nueva Escuela Mexicana en el pensamiento matemático del Nivel Medio Superior.</h4>
                 <p className="text-modal" onClick={() => {
                   context.setSemblanza({ foto: 'sam.jpg', semblanza: '<h5>Silvia Aguilar Martínez</h5><p>Maestra en Alta Dirección de Gobierno y Políticas Públicas por el Instituto Universitario de Investigación Ortega y Gasset México, Especialista en Mercadotecnia y Licenciada en Economía por la UNAM. Actualmente, docente en la Facultad de Economía de la UNAM y en la Escuela Superior de Economía del IPN. Estuve a cargo en la Coordinación Sectorial de Fortalecimiento Académico en la Subsecretaría de Educación Médica Superior de la implementación del Marco Curricular Común de la EMS y la oferta de formación para el personal docente y directivo, entre otros temas.</p>' });
                   cambiarEstadoModal(!estadoModal);
@@ -178,30 +178,31 @@ function November8th() {
                 <p>José Luis Calderón Durán</p>
                 <p className="schedule__item__venue">Leonila Vázquez</p>
               </td>
-              <td colSpan="2" rowSpan="4">
-                <h4>Siguiendo los pasos del prodigio matemático Srinivasa Ramanujan (1887-1920)</h4>
-                <p>Wenceslao Santiago Germán</p>
+              <td colSpan="2" rowSpan="3">
+                <h4>Taller de IA Generativa para docentes en matemáticas</h4>
                 <p className="text-modal" onClick={() => {
                     context.setSemblanza({ foto: 'leonardo_mar.jfif', semblanza: '<h5>Dr. Leonardo Martínez Sandoval</h5><p>Estudió el doctorado en Matemáticas conjuntamente en la UNAM (IM-Juriquilla) y la Université de Montpellier (Francia). Después, hizo un postdoc en Ben Gurion University (Israel), y otro en Sorbonne Université (Francia). Actualmente es Profesor de Tiempo Completo en la Facultad de Ciencias de la UNAM, donde realiza actividades de investigación y docencia.</p>' });
                     cambiarEstadoModal(!estadoModal);
                   }}>Dr. Leonardo Martínez Sandoval</p>
+                <p className="schedule__item__venue">Aula 6 Amoxcalli</p>
               </td>
             </tr>
             <tr>
               <td>18:00 - 18:30</td>
               <td>
+                <h4>Siguiendo los pasos del prodigio matemático Srinivasa Ramanujan (1887-1920)</h4>
+                <p>Wenceslao Santiago Germán</p>
+                <p className="schedule__item__venue">Sotero Prieto 1</p>
+              </td>
+              <td>
                 <h4>Uso de la tecnología en la enseñanza de las matemáticas en el bachillerato</h4>
                 <p>Blanca Cecilia Cruz Salcedo</p>
                 <p>Sandra Diego Ortiz</p>
-                <p className="schedule__item__venue">Sotero Prieto 1</p>
+                <p className="schedule__item__venue">Sotero Prieto 3</p>
               </td>
               <td>
                 <h4>Mejoras en la enseñanza de las tres leyes de Newton en el nuevo Bachillerato a Distancia</h4>
                 <p>Carlos Adrián Sarmiento Gutiérrez</p>
-                <p className="schedule__item__venue">Sotero Prieto 3</p>
-              </td>
-              <td>
-
                 <p className="schedule__item__venue">Leonila Vázquez</p>
               </td>
             </tr>
@@ -213,12 +214,20 @@ function November8th() {
                 <p className="schedule__item__venue">Sotero Prieto 1</p>
               </td>
               <td>
-                <h4>Ponencia</h4>
+                <h4></h4>
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
               </td>
               <td>
-                <h4>Ponencia</h4>
+                <h4></h4>
                 <p className="schedule__item__venue">Leonila Vázquez</p>
+              </td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td colSpan="5">
+                <h4>CLAUSURA</h4>
+                <p>Dr Manuel J. Falconi Magaña</p>
+                <p className="schedule__item__venue">Auditorio Carlos Graef</p>
               </td>
             </tr>
           </tbody>
