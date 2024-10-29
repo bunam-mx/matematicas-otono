@@ -23,10 +23,10 @@ function Home() {
           <dd>Facultad de Ciencias</dd>
           <dt>Dra. Giselle Ochoa Hofmann</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
-          <dt>Mtra. Rosario Santillán</dt>
-          <dd>Escuela Nacional Preparatoria ENP</dd>
         </dl>
         <dl>
+          <dt>Mtra. Rosario Santillán</dt>
+          <dd>Escuela Nacional Preparatoria ENP</dd>
           <dt>Mtro. Gabriel Gutiérrez</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
           <dt>Mtra. Adriana Gómez Reyes</dt>
