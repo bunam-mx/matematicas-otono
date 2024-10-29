@@ -122,7 +122,7 @@ function November7th() {
               </td>
             </tr>
             <tr>
-              <td>13:30 - 14:00</td>
+              <td>13:00 - 13:30</td>
               <td colSpan="2">
                 <h4>La modelización en el estudio de la razón de cambio promedio e instantáneo</h4>
                 <p>Fátima Sandra Rubiales Sánchez </p>
