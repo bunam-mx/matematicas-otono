@@ -10,6 +10,14 @@ function Home() {
       <SemblanzaProvider>
         <ScheduleBlock />
       </SemblanzaProvider>
+      <article className="invitados">
+        <p>
+          <a href="https://sites.google.com/ciencias.unam.mx/integrandofc/principal/matem%C3%A1ticas-en-oto%C3%B1o/invitados" target="_blank">
+            Conoce a los invitados aquí
+          </a>
+        </p>
+        <p><img src="images/integrando.png" alt="INTEGRANDO FC" width={160} /></p>
+      </article>
       <article className="committee">
         <h2>Comité organizador</h2>
         <dl>
