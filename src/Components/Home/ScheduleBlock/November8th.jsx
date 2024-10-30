@@ -202,7 +202,7 @@ function November8th() {
               </td>
               <td rowSpan="2">
                 <h4>La duplicación del cubo</h4>
-                <p>Francisco Struck </p>
+                <p>Francisco Struck Chávez </p>
                 <p className="schedule__item__venue">Leonila Vázquez</p>
               </td>
             </tr>
