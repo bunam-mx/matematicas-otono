@@ -181,9 +181,9 @@ function November8th() {
               <td colSpan="2" rowSpan="3">
                 <h4>Taller de IA Generativa para docentes en matemáticas</h4>
                 <p className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'leonardo_mar.jfif', semblanza: '<h5>Dr. Leonardo Martínez Sandoval</h5><p>Estudió el doctorado en Matemáticas conjuntamente en la UNAM (IM-Juriquilla) y la Université de Montpellier (Francia). Después, hizo un postdoc en Ben Gurion University (Israel), y otro en Sorbonne Université (Francia). Actualmente es Profesor de Tiempo Completo en la Facultad de Ciencias de la UNAM, donde realiza actividades de investigación y docencia.</p>' });
-                    cambiarEstadoModal(!estadoModal);
-                  }}>Dr. Leonardo Martínez Sandoval</p>
+                  context.setSemblanza({ foto: 'leonardo_mar.jfif', semblanza: '<h5>Dr. Leonardo Martínez Sandoval</h5><p>Estudió el doctorado en Matemáticas conjuntamente en la UNAM (IM-Juriquilla) y la Université de Montpellier (Francia). Después, hizo un postdoc en Ben Gurion University (Israel), y otro en Sorbonne Université (Francia). Actualmente es Profesor de Tiempo Completo en la Facultad de Ciencias de la UNAM, donde realiza actividades de investigación y docencia.</p>' });
+                  cambiarEstadoModal(!estadoModal);
+                }}>Dr. Leonardo Martínez Sandoval</p>
                 <p className="schedule__item__venue">Aula 6 Amoxcalli</p>
               </td>
             </tr>
@@ -200,9 +200,9 @@ function November8th() {
                 <p>Sandra Diego Ortiz</p>
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
               </td>
-              <td>
-                <h4>Mejoras en la enseñanza de las tres leyes de Newton en el nuevo Bachillerato a Distancia</h4>
-                <p>Carlos Adrián Sarmiento Gutiérrez</p>
+              <td rowSpan="2">
+                <h4>La duplicación del cubo</h4>
+                <p>Francisco Struck </p>
                 <p className="schedule__item__venue">Leonila Vázquez</p>
               </td>
             </tr>
@@ -214,12 +214,9 @@ function November8th() {
                 <p className="schedule__item__venue">Sotero Prieto 1</p>
               </td>
               <td>
-                <h4></h4>
+                <h4>Mejoras en la enseñanza de las tres leyes de Newton en el nuevo Bachillerato a Distancia</h4>
+                <p>Carlos Adrián Sarmiento Gutiérrez</p>
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
-              </td>
-              <td>
-                <h4></h4>
-                <p className="schedule__item__venue">Leonila Vázquez</p>
               </td>
             </tr>
             <tr>

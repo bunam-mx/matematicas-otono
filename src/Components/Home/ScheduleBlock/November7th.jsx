@@ -78,7 +78,7 @@ function November7th() {
                     context.setSemblanza({ foto: 'javier.jpg', semblanza: "<h5>M. en C. Javier Martín Zariñán Sánchez</h5><p>Estudió física y matemáticas en la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional. Maestría en Ingeniería de Software en el Departamento de Ingeniería Eléctrica y en Ciencias en Investigación Educativa por el  CINVETSAV.  Es  Docente en  la academia de matemáticas en el Instituto de Educación Media Superior (IEMS).</p>" });
                     cambiarEstadoModal(!estadoModal);
                   }}>M. en C. Javier Martín Zariñán Sánchez</li>
-                  </ul>
+                </ul>
               </td>
             </tr>
             <tr>
@@ -90,9 +90,9 @@ function November7th() {
                     cambiarEstadoModal(!estadoModal);
                   }}>Dra. María del Socorro Rivera Casales</li>
                   <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'carmen_martinez.jpg', semblanza: "<h5>Dra. Carmen Martinez Adame</h5><p>Estudió matemáticas en la Facultad de Ciencias de la UNAM y el doctorado en King's College de la Universidad de Londres. Actualmente es profesora de la Facultad de Ciencias. Desde 2021 es coordinadora del posgrado en filosofía de la ciencia y a partir de 2022 es coordinadora de la Comisión de Equidad y Género de la Sociedad Matemática Mexicana.</p>" });
+                    context.setSemblanza({ foto: 'carmen_martinez.jpg', semblanza: "<h5>Dra. Carmen Martínez Adame</h5><p>Estudió matemáticas en la Facultad de Ciencias de la UNAM y el doctorado en King's College de la Universidad de Londres. Actualmente es profesora de la Facultad de Ciencias. Desde 2021 es coordinadora del posgrado en filosofía de la ciencia y a partir de 2022 es coordinadora de la Comisión de Equidad y Género de la Sociedad Matemática Mexicana.</p>" });
                     cambiarEstadoModal(!estadoModal);
-                  }}>Dra. Carmen Martinez Adame</li>
+                  }}>Dra. Carmen Martínez Adame</li>
                 </ul>
                 <p className="schedule__item__moderator">
                   Modera: Mat. Julio César Guevara Bravo
@@ -187,7 +187,7 @@ function November7th() {
                 <p>Osorio Salvador Espinosa Cruz</p>
                 <p className="schedule__item__venue">Leonila Vazquez</p>
               </td>
-              <td rowSpan="4">
+              <td rowSpan="4" className="w-border-r">
                 <h4>Taller de Geogebra</h4>
                 <ul>
                   <li className="text-modal" onClick={() => {
