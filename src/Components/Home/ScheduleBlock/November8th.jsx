@@ -56,6 +56,7 @@ function November8th() {
                     context.setSemblanza({ foto: 'veronica_esther.png', semblanza: '<h5>Dra. Verónica Esther Arriola Ríos</h5><p>Obtuvo las licenciaturas en Física y Ciencias de la Computación en la Faculta de Ciencias de la UNAM.  Estudió la Maestría en Ciencia e Ingeniería de la Computación, también en la UNAM, en el área de Graficación y Ambientes Virtuales.</p><p>Su trabajo de investigación se enfoca al área de aprendizaje de conceptos, utilizando escenarios con objetos deformables volumétricos (esponjas, plastilina, pan).  Para ello utiliza sistemas donde se combina información adquirida a través de diversas modalidades sensoriales: visión, tacto, audio y propriocepción.</p>' });
                     cambiarEstadoModal(!estadoModal);
                   }}>Dra. Verónica Esther Arriola Ríos</li>
+                  <li>Dra. Silvia Guadalupe Canabal Caceres</li>
                 </ul>
                 <p className="schedule__item__moderator">Modera: Dra. Guadalupe Vadillo</p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
@@ -222,6 +223,8 @@ function November8th() {
             <tr>
               <td>19:00</td>
               <td colSpan="5">
+                <h4>Presentación del proyecto IntegrandoFC</h4>
+                <p>Dr. Manuel J. Falconi y equipo de trabajo</p>
                 <h4>CLAUSURA</h4>
                 <p>Dr Manuel J. Falconi Magaña</p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
