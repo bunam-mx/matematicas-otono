@@ -229,6 +229,8 @@ function November8th() {
             <tr>
               <td>19:00</td>
               <td colSpan="5">
+                <h4>Presentación del proyecto IntegrandoFC</h4>
+                <p>Dr. Manuel J. Falconi y equipo de trabajo</p>
                 <h4>CLAUSURA</h4>
                 <p>Dr Manuel J. Falconi Magaña</p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>

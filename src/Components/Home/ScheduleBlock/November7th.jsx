@@ -202,13 +202,9 @@ function November7th() {
                 <p className="schedule__item__venue">Aula 5 Amoxcalli</p>
               </td>
               <td rowSpan="4">
-                <h4>Taller de Podcast</h4>
+                <h4>Taller Generación de secuencias de aprendizaje basado en problemas con ChatGPT</h4>
                 <ul>
-                  <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'teresa_manuel.jpg', semblanza: '<h5>M en C Teresa Manuel Hernández</h5><p>Licenciada en Matemáticas por la Universidad de Lindavista, Chiapas, Maestra en Ciencias en Física Espacial por el Instituto de Geofísica, UNAM y especialista en Género por la Facultad de Filosofía y Letras, UNAM.</p><p>Es integrante de con Ciencia Violeta Sur, grupo de maestras organizadas que imparten talleres y realizan Jornadas Académicas en donde se promueve temas de igualdad de género y se concientiza sobre la violencia de género.</p>' });
-                    cambiarEstadoModal(!estadoModal);
-                  }}>M en C Teresa Manuel Hernández</li>
-                  <li>&nbsp;</li>
+                  <li>Dr. Leonardo Ignacio Martónez Sandoval</li>
                 </ul>
                 <p className="schedule__item__venue">Aula 6 Amoxcalli</p>
               </td>

@@ -37,7 +37,7 @@ function Home() {
           <dd>Escuela Nacional Preparatoria ENP</dd>
           <dt>Mtro. Gabriel Gutiérrez</dt>
           <dd>Escuela Nacional Preparatoria ENP</dd>
-          <dt>Mtra. Adriana Gómez Reyes</dt>
+          <dt>Dra. Adriana Gómez Reyes</dt>
           <dd>Colegio de Ciencias y Humanidades CCH</dd>
           <dt>M. en C. Carmen Rocío Vite González</dt>
           <dd>Escuela Nacional Preparatoria</dd>
