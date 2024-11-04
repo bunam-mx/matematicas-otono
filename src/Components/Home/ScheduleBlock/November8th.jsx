@@ -56,6 +56,10 @@ function November8th() {
                     context.setSemblanza({ foto: 'veronica_esther.png', semblanza: '<h5>Dra. Verónica Esther Arriola Ríos</h5><p>Obtuvo las licenciaturas en Física y Ciencias de la Computación en la Faculta de Ciencias de la UNAM.  Estudió la Maestría en Ciencia e Ingeniería de la Computación, también en la UNAM, en el área de Graficación y Ambientes Virtuales.</p><p>Su trabajo de investigación se enfoca al área de aprendizaje de conceptos, utilizando escenarios con objetos deformables volumétricos (esponjas, plastilina, pan).  Para ello utiliza sistemas donde se combina información adquirida a través de diversas modalidades sensoriales: visión, tacto, audio y propriocepción.</p>' });
                     cambiarEstadoModal(!estadoModal);
                   }}>Dra. Verónica Esther Arriola Ríos</li>
+                  <li className="text-modal" onClick={() => {
+                    context.setSemblanza({ foto: 'silvia_canabal.jpeg', semblanza: '<h5>Dra. Silvia Guadalupe Canabal Caceres</h5><p>Es egresada de la facultad de ingeniería de la UNAM, realizó la Maestría en Docencia (MADEMS), y el Doctorado en Educación.</p><p>Ha cursado varios diplomados y muchos cursos de actualización que versan sobre la disciplina, tecnología, pedagogía, didáctica e IA. </p><p>Tiene 26 años de experiencia docente en la ENP, ha impartido todos los programas de matemáticas de preparatoria en el plantel 6. Cuenta con un especial interés por el uso de la IA en el proceso enseñanza- aprendizaje en Matemáticas.</p>' });
+                    cambiarEstadoModal(!estadoModal);
+                  }}>Dra. Silvia Guadalupe Canabal Caceres</li>
                 </ul>
                 <p className="schedule__item__moderator">Modera: Dra. Guadalupe Vadillo</p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
@@ -82,7 +86,10 @@ function November8th() {
               <td rowSpan="4">
                 <h4>Taller de diseño de materiales educativos con IA</h4>
                 <ul>
-                  <li>Mtro. Omar Terrazas Razo</li>
+                  <li className="text-modal" onClick={() => {
+                    context.setSemblanza({ foto: 'omar-terrazas.png', semblanza: '<h5>Mtro. Omar Terrazas Razo</h5><p>Egresado de la maestría en Ingeniería de Sistemas. Me he desempeñado como Full Stack Developer y Analista de Negocios. Durante mi estancia en la maestría colaboré en algunos proyectos de planeación en organizaciones. Actualmente participo en la coordinación y desarrollo de los proyectos tecnológicos que se gestan dentro del Bachillerato a Distancia de la Universidad Nacional Autónoma de México.</p>' });
+                    cambiarEstadoModal(!estadoModal);
+                  }}>Mtro. Omar Terrazas Razo</li>
                 </ul>
                 <p className="schedule__item__venue">Aula 6 Amoxcalli</p>
               </td>
