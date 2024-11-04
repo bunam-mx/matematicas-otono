@@ -31,7 +31,7 @@ function November8th() {
                     cambiarEstadoModal(!estadoModal);
                   }}>Dr. Alejandro Díaz Barriga</li>
                   <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'andres_flores.jpg', semblanza: '<h5>Mat. Alejandro Javier Diaz-Barriga Casales</h5><p>Matemático por la Facultad de Ciencias de la UNAM. Actualmente se desempeña como coordinador del recurso sociocognitivo de Pensamiento Matemático en la Coordinación Sectorial de Fortalecimiento Académico de la SEMS. Es el responsable del rediseño curricular de los planes y programas de estudio de Pensamiento Matemático en  Educación Media Superior.' });
+                    context.setSemblanza({ foto: 'andres_flores.jpg', semblanza: '<h5>Mat. Andrés Flores Marín</h5><p>Matemático por la Facultad de Ciencias de la UNAM. Actualmente se desempeña como coordinador del recurso sociocognitivo de Pensamiento Matemático en la Coordinación Sectorial de Fortalecimiento Académico de la SEMS. Es el responsable del rediseño curricular de los planes y programas de estudio de Pensamiento Matemático en  Educación Media Superior.' });
                     cambiarEstadoModal(!estadoModal);
                   }}>Mat. Andrés Flores Marín</li>
                 </ul>
@@ -104,9 +104,9 @@ function November8th() {
               <td colSpan="2" rowSpan="2">
                 <h4>El enfoque de la Nueva Escuela Mexicana en el pensamiento matemático del Nivel Medio Superior.</h4>
                 <p className="text-modal" onClick={() => {
-                  context.setSemblanza({ foto: 'sam.jpg', semblanza: '<h5>Silvia Aguilar Martínez</h5><p>Maestra en Alta Dirección de Gobierno y Políticas Públicas por el Instituto Universitario de Investigación Ortega y Gasset México, Especialista en Mercadotecnia y Licenciada en Economía por la UNAM. Actualmente, docente en la Facultad de Economía de la UNAM y en la Escuela Superior de Economía del IPN. Estuve a cargo en la Coordinación Sectorial de Fortalecimiento Académico en la Subsecretaría de Educación Médica Superior de la implementación del Marco Curricular Común de la EMS y la oferta de formación para el personal docente y directivo, entre otros temas.</p>' });
+                  context.setSemblanza({ foto: 'sam.jpg', semblanza: '<h5>Mtra. Silvia Aguilar Martínez</h5><p>Maestra en Alta Dirección de Gobierno y Políticas Públicas por el Instituto Universitario de Investigación Ortega y Gasset México, Especialista en Mercadotecnia y Licenciada en Economía por la UNAM. Actualmente, docente en la Facultad de Economía de la UNAM y en la Escuela Superior de Economía del IPN. Estuve a cargo en la Coordinación Sectorial de Fortalecimiento Académico en la Subsecretaría de Educación Médica Superior de la implementación del Marco Curricular Común de la EMS y la oferta de formación para el personal docente y directivo, entre otros temas.</p>' });
                   cambiarEstadoModal(!estadoModal);
-                }}>Silvia Aguilar Martínez</p>
+                }}>Mtra. Silvia Aguilar Martínez</p>
                 <p className="schedule__item__venue">Sotero Prieto 3</p>
               </td>
             </tr>
@@ -158,9 +158,9 @@ function November8th() {
                     cambiarEstadoModal(!estadoModal);
                   }}>Dra. Zaira Molina Xeronimo</li>
                   <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'nadia_gil.png', semblanza: '<h5>Dra.Nadia Gil Ruiz</h5><p>Doctora en Ciencias en la especialidad de matemática educativa por el Centro de Investigación y Estudios avanzados del IPN (Cinvestav). Experta Universitaria en Administración de la Educación por la Universidad a Distancia de España. Posdoctorante  en Gobernanza y Políticas Públicas  de la Cátedra Iberoamericana de Educación por la Organización de Estados Iberoamericanos y la Universidad de Alcalá de Henares en España.</p>' });
+                    context.setSemblanza({ foto: 'nadia_gil.png', semblanza: '<h5>Dra. Nadia Gil Ruiz</h5><p>Doctora en Ciencias en la especialidad de matemática educativa por el Centro de Investigación y Estudios avanzados del IPN (Cinvestav). Experta Universitaria en Administración de la Educación por la Universidad a Distancia de España. Posdoctorante  en Gobernanza y Políticas Públicas  de la Cátedra Iberoamericana de Educación por la Organización de Estados Iberoamericanos y la Universidad de Alcalá de Henares en España.</p>' });
                     cambiarEstadoModal(!estadoModal);
-                  }}>Dra.Nadia Gil Ruiz</li>
+                  }}>Dra. Nadia Gil Ruiz</li>
                 </ul>
                 <p className="schedule__item__moderator">Modera: Dra. Adriana Gomez Reyes y Dra. Leticia Sánchez López</p>
                 <p className="schedule__item__venue">Auditorio Carlos Graef</p>
