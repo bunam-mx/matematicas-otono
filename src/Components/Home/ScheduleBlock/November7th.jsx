@@ -71,7 +71,7 @@ function November7th() {
                 <h5>Mesa redonda</h5>
                 <ul>
                   <li className="text-modal" onClick={() => {
-                    context.setSemblanza({ foto: 'rafael_martinez.png', semblanza: "<h5>M. en C. Javier Martín Zariñán Sánchez</h5><p>Obtuvo el Master in Philosophy por The Open University, Inglaterra.</p><p>Es profesor de tiempo completo en la Facultad de Ciencias, unam, ha realizado estancias en Italia, Francia y España. Sus áreas de interés son la historia de las matemáticas, la filosofía y las relaciones entre las ciencias y las artes, desde la antigüedad hasta el Renacimiento.</p>" });
+                    context.setSemblanza({ foto: 'rafael_martinez.png', semblanza: "<h5>M. en C. José Rafael Martínez Enríquez</h5><p>Obtuvo el Master in Philosophy por The Open University, Inglaterra.</p><p>Es profesor de tiempo completo en la Facultad de Ciencias, unam, ha realizado estancias en Italia, Francia y España. Sus áreas de interés son la historia de las matemáticas, la filosofía y las relaciones entre las ciencias y las artes, desde la antigüedad hasta el Renacimiento.</p>" });
                     cambiarEstadoModal(!estadoModal);
                   }}>M. en C. José Rafael Martínez Enríquez</li>
                   <li className="text-modal" onClick={() => {
