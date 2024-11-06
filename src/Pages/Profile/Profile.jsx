@@ -54,7 +54,7 @@ function Profile() {
     return (
       <>
       <article className="profile-container__content-speaker">
-        <h3>Registra tu ponencia</h3>
+        {/*<h3>Registra tu ponencia</h3>
         <p className="profile-container__guidelines"><a href={`${import.meta.env.BASE_URL}docs/lineamientos-27082024.pdf`} download="lineamientos-27082024.pdf">Lineamientos para la elaboración de ponencias</a></p>
         <div className="profile-container__success-message hidden" id="success-message">
           <p></p>
@@ -62,6 +62,7 @@ function Profile() {
         <div className="profile-container__error-message hidden" id="error-message">
           <p></p>
         </div>
+        
         <form onSubmit={(e) => submitWorkshop(e)} id="speaker-data" encType="multipart/form-data">
           <input type="hidden" name="userid" value={cookies.get("id")} />
           <div className="speaker-data--item">
@@ -79,10 +80,11 @@ function Profile() {
           <div className="speaker-data--item-submit">
             <input type="submit" value="Enviar" />
           </div>
-        </form>
+        </form>*/}
       </article>
+      
       <article className="profile-container__content-assistant">
-      <p>Una vez que se encuentre el programa completo aquí podrás registrar tu asistencia.</p>
+      <p><NavLink to="/attendance">registra tu asistencia</NavLink></p>
     </article>
       </>
     );

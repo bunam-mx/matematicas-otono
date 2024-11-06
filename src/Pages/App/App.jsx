@@ -7,6 +7,7 @@ import Activate from "../Activate/Activate";
 import Recovery from "../Recovery/Recovery";
 import Profile from "../Profile/Profile";
 import Logout from "../Logout/Logout";
+import Attendance from "../Attendance/Attendance";
 
 const AppRoutes = () => {
   return useRoutes([
@@ -16,6 +17,7 @@ const AppRoutes = () => {
     { path: "/recovery/:userHash", element: <Recovery /> },
     { path: "/profile", element: <Profile /> },
     { path: "/logout", element: <Logout /> },
+    { path: "/attendance", element: <Attendance /> },
   ]);
 };
 
