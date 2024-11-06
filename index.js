@@ -15,6 +15,7 @@ app.use(fileUpload());
 
 require('./routes/users')(app);
 require('./routes/workshops')(app);
+require('./routes/attendance')(app);
 
 const PORT = process.env.PORT || 6610;
 app.listen(PORT);

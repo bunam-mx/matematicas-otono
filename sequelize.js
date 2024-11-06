@@ -23,12 +23,16 @@ db.sequelize = sequelize;
 db.users = require("./models/users")(sequelize, Sequelize);
 db.sigecos = require("./models/sigecos")(sequelize, Sequelize);
 db.workshops = require("./models/workshops")(sequelize, Sequelize);
+db.attendance = require("./models/attendance")(sequelize, Sequelize);
 
 db.users.hasOne(db.sigecos);
 db.sigecos.belongsTo(db.users);
 
 db.users.hasOne(db.workshops);
 db.workshops.belongsTo(db.users);
+
+db.users.hasOne(db.attendance);
+db.attendance.belongsTo(db.users);
 
 sequelize
   .sync({
